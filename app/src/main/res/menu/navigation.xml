@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_instances"
+        android:icon="@drawable/ic_ondemand_video_black_24dp"
+        android:title="@string/instances" />
+
+    <item
+        android:id="@+id/navigation_run"
+        android:icon="@drawable/ic_add_to_queue_black_24dp"
+        android:title="Run" />
+
+    <item
+        android:id="@+id/navigation_bucket"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title="Buckets" />
+
+</menu>

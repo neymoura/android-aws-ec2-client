@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.ioraptor.aws.awsclient"
+        minSdkVersion 24
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+def androidSupportVersion = '26.+'
+def awsSdkVersion = '2.2.+'
+def eventBusVersion = '3.0.0'
+
+dependencies {
+
+    //Android Support
+    compile "com.android.support:appcompat-v7:$androidSupportVersion"
+    compile "com.android.support:design:$androidSupportVersion"
+    compile "com.android.support:cardview-v7:$androidSupportVersion"
+    compile "com.android.support:recyclerview-v7:$androidSupportVersion"
+
+    //AWS Sdk
+    compile "com.amazonaws:aws-android-sdk-core:$awsSdkVersion"
+    compile "com.amazonaws:aws-android-sdk-s3:$awsSdkVersion"
+    compile "com.amazonaws:aws-android-sdk-ec2:$awsSdkVersion"
+
+    //EventBus
+    compile "org.greenrobot:eventbus:$eventBusVersion"
+
+}

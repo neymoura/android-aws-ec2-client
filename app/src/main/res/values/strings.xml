@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AWS Client</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="no_instances_listed">No instances listed</string>
+    <string name="no_buckets_listed">No buckets listed</string>
+    <string name="instances">Instances</string>
+    <string name="instance_options">Instance options</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reboot">Reboot</string>
+    <string name="terminate">Terminate</string>
+    <string name="cancel">Cancel</string>
+    <string name="todo">Not Implemented Yet</string>
+    <string name="instance_type">Instance Type</string>
+    <string name="ami">AMI</string>
+    <string name="keypair">KeyPair</string>
+    <string name="security_group">Security Group</string>
+    <string name="jobs_done">Jobs done!</string>
+    <string name="create_bucket">Create a bucket</string>
+    <string name="bucket_name">Bucket name</string>
+</resources>

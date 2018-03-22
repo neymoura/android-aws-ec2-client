@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="instance_types">
+        <item>t2.micro</item>
+        <item>t2.nano</item>
+        <item>t2.small</item>
+    </string-array>
+
+</resources>
